@@ -18,7 +18,7 @@ quotes = {
     "I am sad also. But we not be sad for long. You are scientist. I am engineer. Together we solve.",
 ],
 
-"WTF?!":[
+"WTF":[
     "All life needs is a chemical reaction that results in copies of the original catalyst."
 ],
 
@@ -45,7 +45,7 @@ def get_quote_by_category(category):
         return jsonify({"error": "Category not found"}), 404
     
     quote = random.choice(quotes[category])
-    return jsonify({"category": category, "quote": quote})
+    return jsonify({category, quote})
 
 if __name__ == '__main__':
     app.run(debug=True)
