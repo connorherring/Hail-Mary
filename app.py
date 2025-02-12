@@ -45,7 +45,7 @@ def get_quote_by_category(category):
         return jsonify({"error": "Category not found"}), 404
     
     quote = random.choice(quotes[category])
-    return jsonify({category, quote})
+    return jsonify({"category": category, "quote": quote})
 
 if __name__ == '__main__':
     app.run(debug=True)
