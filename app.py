@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 quotes = {
 "LOL": [    
-    "I clench every part of me that I know how to clench. It gives me a feeling of control. I'm doing something by aggressively doing nothing.",
+    "I clench  every part of me that I know how to clench. It gives me a feeling of control. I'm doing something by aggressively doing nothing.",
     "Got to love computers. They do all the thinking for you so you don't have to.",
     "One thing I learned back in my graduate school days: When you're stupid tired, accept that you're stupid tired. Don't try to solve things right then.",
     "It's a simple idea, but also stupid. Thing is, when stupid ideas work, they become genius ideas. We'll see which way this one falls.",
